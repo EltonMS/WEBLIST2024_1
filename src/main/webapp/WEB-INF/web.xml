@@ -4,9 +4,17 @@
         <servlet-name>Servlet</servlet-name>
         <servlet-class>com.mycompany.weblist2024_1.Servlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ConsumoCombustivel</servlet-name>
+        <servlet-class>com.mycompany.weblist2024_1.ConsumoCombustivel</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet</servlet-name>
         <url-pattern>/Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConsumoCombustivel</servlet-name>
+        <url-pattern>/ConsumoCombustivel</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
