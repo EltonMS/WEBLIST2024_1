@@ -8,6 +8,18 @@
         <servlet-name>ConsumoCombustivel</servlet-name>
         <servlet-class>com.mycompany.weblist2024_1.ConsumoCombustivel</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Quadrado</servlet-name>
+        <servlet-class>com.mycompany.weblist2024_1.Quadrado</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SalarioServlet</servlet-name>
+        <servlet-class>com.mycompany.weblist2024_1.SalarioServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SomaServlet</servlet-name>
+        <servlet-class>com.mycompany.weblist2024_1.SomaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Servlet</servlet-name>
         <url-pattern>/Servlet</url-pattern>
@@ -15,6 +27,18 @@
     <servlet-mapping>
         <servlet-name>ConsumoCombustivel</servlet-name>
         <url-pattern>/ConsumoCombustivel</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Quadrado</servlet-name>
+        <url-pattern>/Quadrado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SalarioServlet</servlet-name>
+        <url-pattern>/SalarioServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SomaServlet</servlet-name>
+        <url-pattern>/SomaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
